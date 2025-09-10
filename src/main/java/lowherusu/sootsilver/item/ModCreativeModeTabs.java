@@ -20,7 +20,7 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
 
                         output.accept(ModItems.SOOT_SILVER_INGOT);
-
+                        output.accept(ModItems.NIGHT_BERRY);
 
 
                     }).build());

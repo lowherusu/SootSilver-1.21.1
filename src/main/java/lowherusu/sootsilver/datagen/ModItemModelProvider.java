@@ -14,5 +14,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.SOOT_SILVER_INGOT.get());
+
+        getBuilder("night_berry")
+                .parent(getExistingFile(mcLoc("item/generated")))
+                .texture("layer0", modLoc("item/night_berry"))
+                .texture("layer1", modLoc("item/night_berry_glow"));
     }
 }

@@ -24,5 +24,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
         RecipeProvider.nineBlockStorageRecipesRecipesWithCustomUnpacking(recipeOutput, RecipeCategory.MISC, ModItems.SOOT_SILVER_INGOT.get(), RecipeCategory.BUILDING_BLOCKS, Items.DIRT,
                 "soot_silver_ingot_from_dirt_block", "soot_silver_ingot");
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.NIGHT_BERRY.get(), 2)
+                .requires(Items.SWEET_BERRIES)
+                .requires(Items.SUGAR)
+                .unlockedBy("has_sweet_berries", has(Items.SWEET_BERRIES))
+                .save(recipeOutput);
+
     }
 }
