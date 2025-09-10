@@ -1,0 +1,19 @@
+{
+  "itemGroup.sootsilver": "Example Mod Tab",
+  "block.sootsilver.example_block": "Example Block",
+
+
+
+  "item.sootsilver.soot_silver_ingot": "Soot Silver Ingot",
+
+  "creativetab.sootsilver.sootsilver_items": "Soot Silver Items",
+
+
+  "sootsilver.configuration.title": "Example Mod Configs",
+  "sootsilver.configuration.section.sootsilver.common.toml": "Example Mod Configs",
+  "sootsilver.configuration.section.sootsilver.common.toml.title": "Example Mod Configs",
+  "sootsilver.configuration.items": "Item List",
+  "sootsilver.configuration.logDirtBlock": "Log Dirt Block",
+  "sootsilver.configuration.magicNumberIntroduction": "Magic Number Text",
+  "sootsilver.configuration.magicNumber": "Magic Number"
+}
