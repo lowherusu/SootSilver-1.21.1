@@ -19,5 +19,10 @@ public class ModItemModelProvider extends ItemModelProvider {
                 .parent(getExistingFile(mcLoc("item/generated")))
                 .texture("layer0", modLoc("item/night_berry"))
                 .texture("layer1", modLoc("item/night_berry_glow"));
+
+        getBuilder(ModItems.WINDBOUND_FEATHER.getRegisteredName())
+                .parent(getExistingFile(mcLoc("item/generated")))
+                .texture("layer0", modLoc("item/windbound_feather"))
+                .texture("layer1", modLoc("item/windbound_feather_effect"));
     }
 }

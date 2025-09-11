@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModItems.SOOT_SILVER_INGOT);
                         output.accept(ModItems.NIGHT_BERRY);
+                        output.accept(ModItems.WINDBOUND_FEATHER);
 
 
                     }).build());

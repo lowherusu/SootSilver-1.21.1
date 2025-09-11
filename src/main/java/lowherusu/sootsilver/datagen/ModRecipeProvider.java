@@ -31,5 +31,11 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_sweet_berries", has(Items.SWEET_BERRIES))
                 .save(recipeOutput);
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.WINDBOUND_FEATHER.get(), 1)
+                .requires(Items.FEATHER)
+                .requires(ModItems.SOOT_SILVER_INGOT)
+                .requires(ModItems.NIGHT_BERRY)
+                .unlockedBy("has_feather", has(Items.FEATHER))
+                .save(recipeOutput);
     }
 }

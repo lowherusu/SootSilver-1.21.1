@@ -1,6 +1,7 @@
 package lowherusu.sootsilver.item;
 
 import lowherusu.sootsilver.SootSilver;
+import lowherusu.sootsilver.item.custom.WindboundFeather;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
@@ -14,6 +15,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> NIGHT_BERRY = ITEMS.register("night_berry",
             () -> new Item(new Item.Properties().food(ModFoodProperties.NIGHT_BERRY).rarity(Rarity.UNCOMMON)));
+
+    public static final DeferredItem<Item> WINDBOUND_FEATHER = ITEMS.register("windbound_feather", () -> new WindboundFeather());
 
 
     public static void register(IEventBus eventBus){
